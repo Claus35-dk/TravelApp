@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,17 +6,73 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".HomeActivity" >
+    tools:context=".HomeActivity"
+    android:id="@+id/home" >
 
+    <Button
+         android:id="@+id/selectStartButton"
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:text="@string/select" />
+    
+    <EditText 
+        android:id="@+id/editStartLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/selectStartButton"
+        android:inputType="text" />
+    
     <TextView
+        android:id="@+id/textStartLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/go_to_check_in" />
+        android:layout_below="@id/editStartLocation"
+        android:text="@string/start_location" />"
+    
+    <Button
+         android:id="@+id/selectEndButton"
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/textStartLocation"
+         android:layout_alignParentRight="true"
+         android:text="@string/select" />
+    
+    <EditText 
+        android:id="@+id/editEndLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/selectEndButton"
+        android:layout_below="@id/textStartLocation"
+        android:inputType="text" />
+    
+    <TextView
+        android:id="@+id/textEndLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEndLocation"
+        android:text="@string/end_location" />
       
      <Button
-         android:id="@+id/gotoCheckInButton"
+         android:id="@+id/checkInButton"
          android:layout_width="120dp"
          android:layout_height="80dp"
+         android:layout_below="@id/textEndLocation"
          android:text="@string/check_in" />
-
-</LinearLayout>
+     
+     <Button
+         android:id="@+id/checkOutButton"
+         android:layout_width="120dp"
+         android:layout_height="80dp"
+         android:layout_below="@id/textEndLocation"
+         android:layout_alignParentRight="true"
+         android:text="@string/check_out" />
+     
+     <ImageView 
+         android:contentDescription="lsdakf"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:src="@drawable/train" />
+     
+</RelativeLayout>

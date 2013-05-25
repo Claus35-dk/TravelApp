@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="11"
         android:targetSdkVersion="17" />
 
     <application
@@ -29,6 +29,14 @@
         <activity
             android:name="dk.itu.travelapp.CheckOutActivity"
             android:label="@string/title_activity_check_out" >
+        </activity>
+        <activity
+            android:name="dk.itu.travelapp.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="dk.itu.travelapp.List"
+            android:label="@string/title_activity_list" >
         </activity>
     </application>
 

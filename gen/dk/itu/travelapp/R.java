@@ -22,14 +22,21 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int train=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080005;
+        public static final int action_settings=0x7f08000b;
         public static final int checkInButton=0x7f080001;
         public static final int checkInStation=0x7f080000;
         public static final int checkOutButton=0x7f080003;
         public static final int checkOutStation=0x7f080002;
-        public static final int gotoCheckInButton=0x7f080004;
+        public static final int editEndLocation=0x7f080009;
+        public static final int editStartLocation=0x7f080006;
+        public static final int home=0x7f080004;
+        public static final int selectEndButton=0x7f080008;
+        public static final int selectStartButton=0x7f080005;
+        public static final int textEndLocation=0x7f08000a;
+        public static final int textStartLocation=0x7f080007;
     }
     public static final class layout {
         public static final int activity_check_in=0x7f030000;
@@ -40,16 +47,21 @@ public final class R {
         public static final int check_in=0x7f070000;
         public static final int check_out=0x7f070001;
         public static final int home=0x7f070002;
+        public static final int list=0x7f070003;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
         public static final int check_in=0x7f050002;
         public static final int check_out=0x7f050003;
+        public static final int end_location=0x7f050009;
         public static final int go_to_check_in=0x7f050005;
         public static final int hello_world=0x7f050007;
+        public static final int select=0x7f05000b;
+        public static final int start_location=0x7f050008;
         public static final int title_activity_check_in=0x7f050004;
         public static final int title_activity_check_out=0x7f050006;
+        public static final int title_activity_list=0x7f05000a;
     }
     public static final class style {
         /** 
