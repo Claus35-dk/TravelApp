@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dk.lindquist.travelapp"
+    package="dk.itu.travelapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="9"
         android:targetSdkVersion="17" />
 
     <application
@@ -14,13 +14,21 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="dk.lindquist.travelapp.CheckInActivity"
+            android:name="dk.itu.travelapp.HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="dk.itu.travelapp.CheckInActivity"
+            android:label="@string/title_activity_check_in" >
+        </activity>
+        <activity
+            android:name="dk.itu.travelapp.CheckOutActivity"
+            android:label="@string/title_activity_check_out" >
         </activity>
     </application>
 

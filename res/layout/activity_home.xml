@@ -6,24 +6,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    tools:context=".CheckInActivity" >
+    tools:context=".HomeActivity" >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/check_in" />
-    
-    <EditText 
-        android:id="@+id/checkInStation"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:inputType="text" />
-    
-    <Button
-        android:id="@+id/checkInButton"
-        android:layout_width="120dp"
-        android:layout_height="80dp"
-        android:text="@string/check_in" />
+        android:text="@string/go_to_check_in" />
+      
+     <Button
+         android:id="@+id/gotoCheckInButton"
+         android:layout_width="120dp"
+         android:layout_height="80dp"
+         android:text="@string/check_in" />
 
 </LinearLayout>
