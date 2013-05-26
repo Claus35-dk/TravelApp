@@ -21,6 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@id/selectStartButton"
+        android:layout_alignBottom="@id/selectStartButton"
+        android:layout_alignTop="@id/selectStartButton"
         android:inputType="text" />
     
     <TextView
@@ -44,6 +46,8 @@
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@id/selectEndButton"
         android:layout_below="@id/textStartLocation"
+        android:layout_alignBottom="@id/selectEndButton"
+        android:layout_alignTop="@id/selectEndButton"
         android:inputType="text" />
     
     <TextView
@@ -55,21 +59,21 @@
       
      <Button
          android:id="@+id/checkInButton"
-         android:layout_width="120dp"
-         android:layout_height="80dp"
+         android:layout_width="110dp"
+         android:layout_height="wrap_content"
          android:layout_below="@id/textEndLocation"
          android:text="@string/check_in" />
      
      <Button
          android:id="@+id/checkOutButton"
-         android:layout_width="120dp"
-         android:layout_height="80dp"
+         android:layout_width="110dp"
+         android:layout_height="wrap_content"
          android:layout_below="@id/textEndLocation"
          android:layout_alignParentRight="true"
          android:text="@string/check_out" />
      
      <ImageView 
-         android:contentDescription="lsdakf"
+         android:id="@+id/img"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:layout_alignParentBottom="true"

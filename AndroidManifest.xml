@@ -8,6 +8,8 @@
         android:minSdkVersion="11"
         android:targetSdkVersion="17" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -35,8 +37,24 @@
             android:label="@string/title_activity_list" >
         </activity>
         <activity
+            android:name="dk.itu.travelapp.LogListing"
+            android:label="@string/title_log_listing" >
+        </activity>
+        <activity
             android:name="dk.itu.travelapp.List"
             android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="dk.itu.travelapp.WebActivity"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name="dk.itu.travelapp.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="dk.itu.travelapp.PrefFragment"
+            android:label="@string/title_activity_pref_fragment" >
         </activity>
     </application>
 

@@ -13,5 +13,8 @@
     <string name="end_location">Select an end location</string>
     <string name="title_activity_list">ListActivity</string>
     <string name="select">Select</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_log_listing">Log</string>
+    <string name="title_activity_pref_fragment">PrefFragment</string>
 
 </resources>
