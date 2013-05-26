@@ -20,6 +20,12 @@
         android:layout_height="80dp"
         android:inputType="text" />
     
+    <EditText 
+        android:id="@+id/secondStation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:inputType="text" />
+    
     <Button
         android:id="@+id/checkInButton"
         android:layout_width="120dp"

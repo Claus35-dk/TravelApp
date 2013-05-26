@@ -2,7 +2,11 @@ package dk.itu.travelapp;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,7 +15,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class HomeActivity extends Activity {
+public class HomeActivity extends FragmentActivity {
 	public static final String SELECTED_LIST_ITEM = "SELECTED_LIST_ITEM";
 	public static final int SELECTED_START = 1;
 	public static final int SELECTED_END = 2;
@@ -20,6 +24,7 @@ public class HomeActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
+		
 		
 		Button checkInButton = (Button) findViewById(R.id.checkInButton);
 		checkInButton.setOnClickListener(new View.OnClickListener() {

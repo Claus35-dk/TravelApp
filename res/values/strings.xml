@@ -16,5 +16,7 @@
     <string name="title_activity_web">WebActivity</string>
     <string name="title_log_listing">Log</string>
     <string name="title_activity_pref_fragment">PrefFragment</string>
+    <string name="title_activity_invite">InviteActivity</string>
+    <string name="invite_button">Invite a friend</string>
 
 </resources>

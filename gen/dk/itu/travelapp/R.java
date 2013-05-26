@@ -32,24 +32,27 @@ public final class R {
         public static final int train=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0011;
-        public static final int checkInButton=0x7f0a0001;
+        public static final int action_settings=0x7f0a0014;
+        public static final int checkInButton=0x7f0a0002;
         public static final int checkInStation=0x7f0a0000;
-        public static final int checkOutButton=0x7f0a0003;
-        public static final int checkOutStation=0x7f0a0002;
-        public static final int editEndLocation=0x7f0a0009;
-        public static final int editStartLocation=0x7f0a0006;
-        public static final int firstCollumn=0x7f0a000d;
-        public static final int home=0x7f0a0004;
-        public static final int img=0x7f0a000b;
-        public static final int imgWebView=0x7f0a000f;
-        public static final int secondCollumn=0x7f0a000e;
-        public static final int selectEndButton=0x7f0a0008;
-        public static final int selectStartButton=0x7f0a0005;
-        public static final int settingsfragment=0x7f0a000c;
-        public static final int textEndLocation=0x7f0a000a;
-        public static final int textStartLocation=0x7f0a0007;
-        public static final int webView=0x7f0a0010;
+        public static final int checkOutButton=0x7f0a0004;
+        public static final int checkOutStation=0x7f0a0003;
+        public static final int editEndLocation=0x7f0a000a;
+        public static final int editStartLocation=0x7f0a0007;
+        public static final int firstCollumn=0x7f0a000e;
+        public static final int fragContainer=0x7f0a0012;
+        public static final int fragmentInvite=0x7f0a0013;
+        public static final int home=0x7f0a0005;
+        public static final int img=0x7f0a000c;
+        public static final int imgWebView=0x7f0a0010;
+        public static final int secondCollumn=0x7f0a000f;
+        public static final int secondStation=0x7f0a0001;
+        public static final int selectEndButton=0x7f0a0009;
+        public static final int selectStartButton=0x7f0a0006;
+        public static final int settingsfragment=0x7f0a000d;
+        public static final int textEndLocation=0x7f0a000b;
+        public static final int textStartLocation=0x7f0a0008;
+        public static final int webView=0x7f0a0011;
     }
     public static final class layout {
         public static final int activity_check_in=0x7f030000;
@@ -58,14 +61,16 @@ public final class R {
         public static final int activity_pref_fragment=0x7f030003;
         public static final int activity_two_collumns=0x7f030004;
         public static final int activity_web=0x7f030005;
+        public static final int fragment_invite=0x7f030006;
     }
     public static final class menu {
         public static final int check_in=0x7f090000;
         public static final int check_out=0x7f090001;
         public static final int home=0x7f090002;
-        public static final int list=0x7f090003;
-        public static final int pref=0x7f090004;
-        public static final int web=0x7f090005;
+        public static final int invite=0x7f090003;
+        public static final int list=0x7f090004;
+        public static final int pref=0x7f090005;
+        public static final int web=0x7f090006;
     }
     public static final class string {
         public static final int action_settings=0x7f070001;
@@ -75,34 +80,36 @@ public final class R {
         public static final int end_location=0x7f070009;
         public static final int go_to_check_in=0x7f070005;
         public static final int hello_world=0x7f070007;
-        public static final int pref_default_display_name=0x7f070014;
-        public static final int pref_description_social_recommendations=0x7f070012;
+        public static final int invite_button=0x7f070010;
+        public static final int pref_default_display_name=0x7f070016;
+        public static final int pref_description_social_recommendations=0x7f070014;
         /**  Example settings for Data & Sync 
          */
-        public static final int pref_header_data_sync=0x7f070016;
+        public static final int pref_header_data_sync=0x7f070018;
         /**  Strings related to Settings 
  Example General settings 
          */
-        public static final int pref_header_general=0x7f070010;
+        public static final int pref_header_general=0x7f070012;
         /**  Example settings for Notifications 
          */
-        public static final int pref_header_notifications=0x7f070019;
-        public static final int pref_ringtone_silent=0x7f07001c;
-        public static final int pref_title_add_friends_to_messages=0x7f070015;
-        public static final int pref_title_display_name=0x7f070013;
-        public static final int pref_title_new_message_notifications=0x7f07001a;
-        public static final int pref_title_ringtone=0x7f07001b;
-        public static final int pref_title_social_recommendations=0x7f070011;
-        public static final int pref_title_sync_frequency=0x7f070017;
-        public static final int pref_title_system_sync_settings=0x7f070018;
-        public static final int pref_title_vibrate=0x7f07001d;
+        public static final int pref_header_notifications=0x7f07001b;
+        public static final int pref_ringtone_silent=0x7f07001e;
+        public static final int pref_title_add_friends_to_messages=0x7f070017;
+        public static final int pref_title_display_name=0x7f070015;
+        public static final int pref_title_new_message_notifications=0x7f07001c;
+        public static final int pref_title_ringtone=0x7f07001d;
+        public static final int pref_title_social_recommendations=0x7f070013;
+        public static final int pref_title_sync_frequency=0x7f070019;
+        public static final int pref_title_system_sync_settings=0x7f07001a;
+        public static final int pref_title_vibrate=0x7f07001f;
         public static final int select=0x7f07000b;
         public static final int start_location=0x7f070008;
         public static final int title_activity_check_in=0x7f070004;
         public static final int title_activity_check_out=0x7f070006;
+        public static final int title_activity_invite=0x7f07000f;
         public static final int title_activity_list=0x7f07000a;
         public static final int title_activity_pref_fragment=0x7f07000e;
-        public static final int title_activity_settings=0x7f07000f;
+        public static final int title_activity_settings=0x7f070011;
         public static final int title_activity_web=0x7f07000c;
         public static final int title_log_listing=0x7f07000d;
     }
